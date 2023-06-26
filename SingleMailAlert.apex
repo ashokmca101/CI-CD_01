@@ -6,6 +6,7 @@ public class SingleMailAlert implements Database.Batchable<sObject>
         /*
         String query ='select Id,OwnerId,Owner.Name,Owner.Email,Owner.MobilePhone,Primary_Customer_Email__c from Account where ';
         query = query+' OwnerId!=null AND RecordTypeId =:'+recordTypeId;
+        query = query+' OwnerId!=null AND RecordTypeId =:'+recordTypeId;
         */	
         String mail1='imran.shaik@bvclogistics.com';
         String mail2='';
